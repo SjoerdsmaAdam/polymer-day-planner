@@ -1,0 +1,1 @@
+!function(t){"use strict";var e=t.querySelector("#app");e.firebaseURL="https://polymer-todo.firebaseio.com",e.displayInstalledToast=function(){t.querySelector("#caching-complete").show()},e.signOut=function(){this.$.auth.signOut()}}(document);
